@@ -10,9 +10,13 @@ public class positive
     {
     System.out.println(n+"is a negative number");
     }
-    else
+    else if(n<0)
     {
     System.out.println(n+"is a positive number");
+    }
+    else
+    {
+      System.out.println("zero");
     }
   }
   }
