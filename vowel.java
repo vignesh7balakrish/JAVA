@@ -13,7 +13,7 @@ public class vowel
     }
     else
     {
-    System.out.println("constants");
+    System.out.println("consonant");
     }
     
     }
