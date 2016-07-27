@@ -3,12 +3,15 @@ public class palindrome
 {
   public static void main(String args[])
   {
+    int num,num1;
     String str;
     Scanner scan=new Scanner(System.in);
-    str=scan.nextLine();
+    num=scan.nextInt();
+    str=String.valueof(num);
     StringBuffer sb=new StringBuffer(str);
     string str1=sb.reverse().toString();
-    if(str.equals(str1))
+    num1=Integer.parseInt(str1);
+    if(num==num1)
     {
       System.out.println("palindrome");
     }
