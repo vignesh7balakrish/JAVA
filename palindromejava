@@ -1,0 +1,21 @@
+import java.util.*;
+public class palindrome
+{
+  public static void main(String args[])
+  {
+    String str;
+    Scanner scan=new Scanner(System.in);
+    str=scan.nextLine();
+    StringBuffer sb=new StringBuffer(str);
+    string str1=sb.reverse().toString();
+    if(str.equals(str1))
+    {
+      System.out.println("palindrome");
+    }
+    else
+    {
+      System.out.println("not palindrome");
+    }
+  }
+  }
+    
